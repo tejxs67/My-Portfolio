@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/BG2.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "As a third-year computer science student seeking internships, I possess problem-solving skills, programming knowledge in Python,Java,C and C++, and familiarity with algorithms and data structures. Additionally, I have strong communication, teamwork, and adaptability skills.I am eager to apply my theoretical knowledge to realworld projects and contribute meaningfully to a team";
+  "As a third-year computer science student seeking internships, I possess problem-solving skills, programming knowledge in Python,Java,C and C++, and familiarity with algorithms and data structures. Additionally, I have strong communication, teamwork, and adaptability skills.I am eager to apply my theoretical knowledge to real-world projects and contribute meaningfully to a team";
 
 /**
  * List of some of skills or technologies you work on, are learning,

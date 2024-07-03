@@ -32,14 +32,12 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "Mobile Site Development",
-    description:
-      "Project Site Developed To Learn Site Development In Express.js.",
+    description: "Project Site Developed To Learn Site Development In Express.js.",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
     title: "Certifications",
-    description:
-      "All Courses Completed Throughout My Career.",
+    description: "All Courses Completed Throughout My Career.",
     url: "https://github.com/tejxs67/Hands-on-bootcamp-project",
   },
   {

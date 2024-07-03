@@ -47,7 +47,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am looking for Internships OR Remote Jobs";
 
 const About = () => {
   return (
@@ -58,7 +58,7 @@ const About = () => {
           backgroundColor: "white",
           width: "50%",
           padding: "4rem",
-          margin: "3rem auto",
+          margin: "1rem auto",
           textAlign: "center",
         }}
       >

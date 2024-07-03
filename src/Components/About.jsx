@@ -24,19 +24,21 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "As a third-year computer science student seeking internships, I possess problem-solving skills, programming knowledge in Python,Java,C and C++, and familiarity with algorithms and data structures. Additionally, I have strong communication, teamwork, and adaptability skills.I am eager to apply my theoretical knowledge to realworld projects and contribute meaningfully to a team";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Data Strcutures",
+  "Graphic Design",
+  "Designing",
+  "Logic Building",
+  "Node.js",
+  "React.js",
+  "DBMS",
+  "C,C++,JAVA,Python",
 ];
 
 /**

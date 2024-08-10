@@ -32,13 +32,13 @@ const description =
  */
 const skillsList = [
   "Data Strcutures",
-  "Graphic Design",
-  "Designing",
-  "Logic Building",
-  "Node.js",
+  "Full-Stack Development",
+  "API designing",
+  "Complex Logic Building",
+  "OOP programs",
   "React.js",
   "DBMS",
-  "C,C++,JAVA,Python",
+  "C,C++,JAVA",
 ];
 
 /**
@@ -46,7 +46,7 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote = "I am looking for Internships OR Remote Jobs";
+const detailOrQuote = "Looking to upskill myself more because sky is the limit";
 
 const About = () => {
   return (
@@ -69,8 +69,8 @@ const About = () => {
             textAlign: "left",
             columns: 2,
             fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
+            margin: "2rem 2rem",
+            gap: "2rem",
           }}
         >
           {skillsList.map((skill) => (

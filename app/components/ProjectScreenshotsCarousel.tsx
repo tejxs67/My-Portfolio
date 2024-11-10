@@ -14,13 +14,13 @@ const ProjectScreenshotsCarousel = ({ images }: ProjectScreenshotsCarouselProps)
 
   const settings = {
     dots: true,
-    infinite: true,      // Keep scrolling infinitely
-    speed: 500,          // Transition speed
-    slidesToShow: 1,     // Show one image at a time
-    slidesToScroll: 1,   // Scroll one image at a time
-    autoplay: true,      // Enable autoplay
-    autoplaySpeed: 2000, // Speed of auto-scroll (in milliseconds)
-    pauseOnHover: true,  // Pause the autoplay when the carousel is hovered
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: !isHovered,   // Pause autoplay when hovered
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
   };
 
   return (

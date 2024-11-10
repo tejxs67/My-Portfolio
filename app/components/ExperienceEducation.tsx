@@ -74,7 +74,13 @@ const CertificationCard = ({
     </div>
     <div className="flex items-center text-[rgb(var(--accent-foreground))]">
       <CheckCircle className="w-4 h-4 mr-2" />
-      <span>Validation Code: {validationCode}</span>
+      {validationCode.startsWith('http') ? (
+        <a href={validationCode} target="_blank" rel="noopener noreferrer" className="underline">
+          Certificate Link
+        </a>
+      ) : (
+        <span>Validation Code: {validationCode}</span>
+      )}
     </div>
   </motion.div>
 )
@@ -92,10 +98,10 @@ const ExperienceEducation = () => {
       initial={{ opacity: 0, y: 50 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8 }}
-      className="my-16"
+      className="my-16 px-4"
     >
       <h2 className="text-3xl font-bold mb-8 text-center text-[rgb(var(--foreground))]">Experience, Education & Certifications</h2>
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="max-w-screen-xl mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="space-y-6">
           <h3 className="text-2xl font-semibold mb-4 text-[rgb(var(--foreground))]">Work Experience</h3>
           <div className="grid gap-6 h-full">
@@ -140,7 +146,7 @@ const ExperienceEducation = () => {
               validationCode="HGYVVW19"
             />
             <CertificationCard
-              title="Logic Buidling & Algorithms"
+              title="Logic Building & Algorithms"
               provider="MARVELLOUS INFOSYSTEMS"
               year="July-2023 - Dec-2023"
               validationCode="https://drive.google.com/file/d/1qYAolbX_k79NhTfhBmYNn1UoKOer1fhR/view?usp=drive_link"

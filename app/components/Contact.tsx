@@ -5,8 +5,7 @@ import { useInView } from 'react-intersection-observer'
 import { Phone, Home } from 'lucide-react'
 import { FaEnvelope, FaLinkedin } from 'react-icons/fa'
 
-
-const ContactCard = ({ icon: Icon, title, content }: { icon: React.ElementType; title: string; content: string }) => (
+const ContactCard = ({ icon: Icon, title, content }: { icon: React.ElementType; title: string; content: React.ReactNode }) => (
   <motion.div
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
@@ -55,7 +54,7 @@ const Contact = () => {
         <ContactCard
           icon={FaLinkedin}
           title="LinkedIn"
-          content={<a href="https://www.linkedin.com/in/tejasph1/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">https://www.linkedin.com/in/tejasph1/</a>}
+          content={<a href="https://www.linkedin.com/in/tejasph-li/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">https://www.linkedin.com/in/tejasph1/</a>}
         />
       </div>
     </motion.section>

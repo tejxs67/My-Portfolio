@@ -1,0 +1,83 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'DSEG 7';
+  src: url('/app/fonts/7segment.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  :light {
+    /* Light Mode Variables */
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+    
+    --card: 0 0% 98%;
+    --card-foreground: 222.2 47.4% 11.2%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+    
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 215 20.2% 65.1%;
+    
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark Mode Variables - Adjusted */
+    --background: 20, 20, 20; /* Near-black background */
+    --foreground: 230, 230, 230; /* Light grey text */
+
+    --card: 35, 35, 35; /* Slightly lighter for cards */
+    --card-foreground: 230, 230, 230; /* Light grey text on card */
+
+    --popover: 30, 30, 30; /* Slightly lighter popover */
+    --popover-foreground: 230, 230, 230; /* Light grey text on popover */
+
+    --primary: 60, 60, 60; /* Dark primary for buttons */
+    --primary-foreground: 255, 255, 255; /* White on primary */
+
+    --secondary: 10, 100, 360; /* Darker grey for secondary */
+    --secondary-foreground: 230, 230, 230; /* Light text on secondary */
+
+    --muted: 50, 50, 50; /* Dark muted background */
+    --muted-foreground: 180, 180, 180; /* Soft light grey muted text */
+
+    --accent: 70, 130, 180; /* Softer blue accent */
+    --accent-foreground: 240, 240, 240; /* Light foreground on accent */
+
+    --destructive: 255, 85, 85; /* Stronger red for destructive */
+    --destructive-foreground: 255, 255, 255; /* White on destructive */
+
+    --border: 70, 70, 70; /* Dark grey border */
+    --input: 70, 70, 70; /* Input border color */
+    --ring: 100, 100, 100; /* Softer grey ring color */
+  }
+}
+
+.digital-display {
+  font-family: 'DSEG 7', sans-serif;
+}

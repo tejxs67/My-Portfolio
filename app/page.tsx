@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
-
+import { Picture } from '@/PFP.jpg'
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
@@ -18,8 +18,8 @@ export default function Home() {
           className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
         >
           {/* Profile Section */}
-          <div className="text-left space-y-6">
-            <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[rgb(220,70,50)] via-[rgb(160,60,245)] to-[rgb(80,50,220)]">
+          <div className="text-left space-y-6 pb-6 pl-10">
+            <h1 className="text-4xl md:text-6xl font-bold pb-1 bg-clip-text text-transparent bg-gradient-to-r from-[rgb(220,70,50)] via-[rgb(160,60,245)] to-[rgb(80,50,220)]">
               Tejas Phopale
             </h1>
             <p className="text-lg text-muted-foreground">
@@ -40,10 +40,10 @@ export default function Home() {
           {/* Profile Image */}
           <div className="relative aspect-square max-w-md mx-auto">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[rgb(220,70,50)] via-[rgb(160,60,245)] to-[rgb(80,50,220)] animate-pulse blur-xl opacity-50" />
-            <div className="relative h-full rounded-full overflow-hidden border-4 border-background shadow-2xl">
+            <div className="relative h-full w-[350px] rounded-full overflow-hidden border-4 border-background shadow-2xl">
               {/* Replace with your profile image URL */}
               <Image
-                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080"
+                src='/PFP.jpg'
                 alt="Tejas Phopale"
                 fill
                 className="object-cover"

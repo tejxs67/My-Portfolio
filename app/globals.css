@@ -13,6 +13,11 @@
 }
 
 @layer base {
+  body {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb); /* Dreamy blue-purple gradient */
+    background-attachment: fixed; /* Ensures the gradient doesn't scroll with content */
+    color: hsl(var(--foreground)); /* Retain dynamic foreground color for text */
+  }
   :light {
     /* Light Mode Variables */
     --background: 0 0% 100%;
@@ -80,4 +85,7 @@
 
 .digital-display {
   font-family: 'DSEG 7', sans-serif;
+  background-color: rgb(17 24 39 );
+  color: white;
+  font-size:large ;
 }

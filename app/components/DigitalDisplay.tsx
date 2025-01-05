@@ -43,4 +43,4 @@ const DigitalDisplay = ({ text, className }: { text: string; className?: string 
   )
 }
 
-export default DigitalDisplay
+export default DigitalDisplay 

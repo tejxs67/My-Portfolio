@@ -14,8 +14,7 @@ export default function Home() {
   return (
     <ThemeProvider>
       <div
-        className="min-h-screen"
-        style={{ backgroundColor: 'hsl(var(--background))', color: 'hsl(var(--foreground))' }}
+        className="min-h-screen bg-gradient-to-br from-blue-700 via-purple-500 to-purple-900 text-white"
       >
         <FloatingHeader />
         <main className="container mx-auto px-4 pt-24">
@@ -32,7 +31,7 @@ export default function Home() {
             >
               Tejas Phopale
             </h1>
-            <DigitalDisplay text="WELCOME TO MY PORTFOLIO" className="text-[rgb(var(--foreground))]" />
+            <DigitalDisplay text="WELCOME TO MY PORTFOLIO" />
           </motion.div>
           <About />
           <Skills />

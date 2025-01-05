@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
-import { Picture } from '@/PFP.jpg'
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">

@@ -6,28 +6,28 @@ import { ProjectCard } from '@/components/projects/project-card'
 export default function Projects() {
   const projects = [
     {
-      title: "Project 1",
-      description: "Description for Project 1",
-      tags: ["React", "TypeScript", "Tailwind"],
-      link: "#"
+      title: "Project-Management System",
+      description: "A College application to handle and monitor projects.",
+      tags: ["Next.js", "TypeScript", "Tailwind","MySQL"],
+      link: "https://github.com/tejxs67/Project-Management-System"
     },
     {
-      title: "Project 2",
-      description: "Description for Project 2",
-      tags: ["Next.js", "Node.js", "MongoDB"],
-      link: "#"
+      title: "Landing Page",
+      description: "Dynamic WebPage Created for the main landing page of a organization with GSAP animations and API intergrations.",
+      tags: ["React.js", "Node.js", "MySQL"],
+      link: "https://grapedawn.tech"
     },
     {
-      title: "Project 3",
-      description: "Description for Project 3",
+      title: "File Packer-UnPacker",
+      description: "Java Project which compresses and de-compresses files with commands",
+      tags: ["JAVA"],
+      link: "https://github.com/tejxs67/File-Packer-UnPacker"
+    },
+    {
+      title: "WallPaper- Carousel APP",
+      description: "MKBHD clone wallpaper app made in React Native.(Currently Working on it)",
       tags: ["React Native", "Firebase"],
-      link: "#"
-    },
-    {
-      title: "Project 4",
-      description: "Description for Project 4",
-      tags: ["Vue.js", "Express", "PostgreSQL"],
-      link: "#"
+      link: "https://github.com/tejxs67"
     }
   ]
 

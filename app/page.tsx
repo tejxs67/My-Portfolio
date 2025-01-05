@@ -83,13 +83,15 @@ export default function Home() {
 
 function QuickLinkCard({ title, description, href }: { title: string; description: string; href: string }) {
   return (
-    <Card className="group relative overflow-hidden border border-border/50 bg-gradient-to-b from-background to-background/80 p-6 transition-all hover:border-border">
-      <div className="absolute inset-0 bg-gradient-to-r from-[rgb(220,70,50)] via-[rgb(160,60,245)] to-[rgb(80,50,220)] opacity-0 transition-opacity group-hover:opacity-10" />
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-muted-foreground mb-4">{description}</p>
-      <Link href={href} className="text-primary hover:underline inline-flex items-center">
-        Learn More <ArrowRight className="ml-1 h-4 w-4" />
-      </Link>
-    </Card>
+    <Link href={href} className="block">
+      <Card className="group relative overflow-hidden border border-border/50 bg-gradient-to-b from-background to-background/80 p-6 transition-all hover:border-border">
+        <div className="absolute inset-0 bg-gradient-to-r from-[rgb(220,70,50)] via-[rgb(160,60,245)] to-[rgb(80,50,220)] opacity-0 transition-opacity group-hover:opacity-10" />
+        <h3 className="text-xl font-semibold mb-2">{title}</h3>
+        <p className="text-muted-foreground mb-4">{description}</p>
+        <div className="text-primary hover:underline inline-flex items-center">
+          Learn More <ArrowRight className="ml-1 h-4 w-4" />
+        </div>
+      </Card>
+    </Link>
   )
 }

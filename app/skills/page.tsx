@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Code, Wrench, Heart } from 'lucide-react'
-import { FaJava, FaCar, FaHtml5, FaCss3Alt, FaReact, FaDocker, FaPython } from 'react-icons/fa'
+import { FaJava, FaHtml5, FaCss3Alt, FaReact, FaDocker, FaPython } from 'react-icons/fa'
 import { SiC, SiCplusplus, SiJavascript, SiMysql, SiTailwindcss, SiMongodb, SiNextdotjs, SiGit, SiPython } from 'react-icons/si'
 import { Card } from '@/components/ui/card'
 
@@ -66,8 +66,7 @@ export default function Skills() {
     { name: 'WebRTC', Icon: Code },
     { name: 'Trekking', Icon: Heart },
     { name: 'Mechanical', Icon: Wrench },
-    { name: 'Music', Icon: Heart },
-    { name: 'Driving', Icon: 'FaCar' },
+    { name: 'Music', Icon: Heart }
   ]
 
   return (

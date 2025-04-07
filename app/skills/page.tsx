@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Code, Wrench, Heart } from 'lucide-react'
-import { FaJava, Faar, FaHtml5, FaCss3Alt, FaReact, FaDocker, FaPython } from 'react-icons/fa'
+import { FaJava, FaCar, FaHtml5, FaCss3Alt, FaReact, FaDocker, FaPython } from 'react-icons/fa'
 import { SiC, SiCplusplus, SiJavascript, SiMysql, SiTailwindcss, SiMongodb, SiNextdotjs, SiGit, SiPython } from 'react-icons/si'
 import { Card } from '@/components/ui/card'
 

@@ -65,7 +65,7 @@ export default function Skills() {
     { name: 'Web3', Icon: Code },
     { name: 'WebRTC', Icon: Code },
     { name: 'Trekking', Icon: Heart },
-    { name: 'Mechanical', Icon: Wrench },
+    { name: 'Mechanics', Icon: Wrench },
     { name: 'Music', Icon: Heart }
   ]
 

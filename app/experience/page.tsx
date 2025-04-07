@@ -18,7 +18,7 @@ export default function Experience() {
             Experience & Education
           </h1>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-8 gap-8">
             {/* Work Experience */}
             <div className="lg:col-span-2 space-y-6">
               <h2 className="text-2xl font-semibold mb-6">Work Experience</h2>
@@ -46,23 +46,68 @@ export default function Experience() {
                     <span>Enhanced API integrations improving performance by 40%</span>
                   </li>
                 </ul>
-              </TimelineCard>
+            </TimelineCard>
+            <TimelineCard
+                icon={Briefcase}
+                title="Software Enggneering Intern"
+                subtitle="JP Morgan Chase"
+                period="Jul 2024 - Jul 2024"
+              ><ul className="mt-4 space-y-3 text-muted-foreground">
+              <li className="flex items-start gap-2">
+                <span className="mt-2 w-1 h-1 rounded-full bg-primary shrink-0" />
+                <span>Set up a local dev environment by downloading the necessary files, tools and dependencies.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-2 w-1 h-1 rounded-full bg-primary shrink-0" />
+                <span>Fixed broken files in the repository to make web application output correctly.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-2 w-1 h-1 rounded-full bg-primary shrink-0" />
+                <span>Used JPMorgan Chases open source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor.</span>
+              </li>
+            </ul>
+            </TimelineCard>
+            <TimelineCard
+                icon={Briefcase}
+                title="Data Visualization Intern"
+                subtitle="Tata Group"
+                period="Jul 2024 - Jul 2024"
+              ><ul className="mt-4 space-y-3 text-muted-foreground">
+              <li className="flex items-start gap-2">
+                <span className="mt-2 w-1 h-1 rounded-full bg-primary shrink-0" />
+                <span>Completed a simulation involving creating data visualizations for Tata Consultancy Services</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-2 w-1 h-1 rounded-full bg-primary shrink-0" />
+                <span>Prepared questions for a meeting with client senior leadership</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-2 w-1 h-1 rounded-full bg-primary shrink-0" />
+                <span>Implemented security features in Next.js Project Management System</span>
+              </li>
+            </ul>
+            </TimelineCard>
             </div>
-
             {/* Education */}
             <div className="space-y-6">
               <h2 className="text-2xl font-semibold mb-6">Education</h2>
               <TimelineCard
                 icon={GraduationCap}
                 title="Bachelor's in Computer Science"
-                subtitle="Dr. D Y Patil College, Pune"
+                subtitle="Dr. D Y Patil Unitech College Pimpri, Pune"
                 period="2022-2025"
               />
               <TimelineCard
                 icon={GraduationCap}
                 title="Higher Secondary"
-                subtitle="Saraswati Vishwa Vidyalaya"
+                subtitle="Saraswati Vishwa Vidyalaya, Pune"
                 period="2019-2021"
+              />
+              <TimelineCard
+                icon={GraduationCap}
+                title="Primaruy & Secondary"
+                subtitle="Amrita Vidyalayam, Pune"
+                period="2007-2019"
               />
             </div>
           </div>
@@ -71,6 +116,36 @@ export default function Experience() {
           <div className="mt-16">
             <h2 className="text-2xl font-semibold mb-6">Certifications</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <CertificationCard
+                title="Deloitte Australia-Cyber Job Simulation"
+                provider="Forage"
+                year="Mar 2025"
+                validationCode="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_WcmzvnYTJJoiG59dL_1741979306454_completion_certificate.pdf"
+              />
+              <CertificationCard
+                title="AWS for beginners"
+                provider="Great Learning"
+                year="Nov 2024"
+                validationCode="https://www.mygreatlearning.com/certificate/RFNNXCFZ"
+              />
+              <CertificationCard
+                title="Python Programming for Everyone"
+                provider="Udemy"
+                year="Nov 2024"
+                validationCode="UC-b6b2d2bd-9a59-43bd-87b3-034a4db00d0b"
+              />
+              <CertificationCard
+                title="Postman API Fundamentals Student Expert Badge"
+                provider="Postman"
+                year="Sep 2024"
+                validationCode="https://badgr.com/public/assertions/QbgEUAx2RR64hOVwWqlulg?identity__email=tejasphopale77071@gmail.com"
+              />
+            <CertificationCard
+                title="Databses with Python"
+                provider="Udemy"
+                year="Mar 2025"
+                validationCode="UC-26a0f774-6809-4baf-a821-94cae25b73e7"
+              />
               <CertificationCard
                 title="MERN Full-Stack Development"
                 provider="100xDevs"

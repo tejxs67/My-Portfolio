@@ -2,9 +2,28 @@
 
 import { motion } from 'framer-motion'
 import { ProjectCard } from '@/components/projects/project-card'
+import { Description } from '@radix-ui/react-dialog'
 
 export default function Projects() {
   const projects = [
+    {
+      title: "Face Recognition Attendance System(Python)",
+      description : "Face recognition attendance system for College/Small size companies with report Mail feature.",
+      tags: ["Python 3.7","Open-CV", "TKinter", "Yagmail", "Pillow", "Numpy", "Pandas"],
+      link: "https://github.com//tejxs67/Face-Recognition-Attendance-System-master"
+    },
+    {
+      title: "Websocket Based Attendance System(MERN)",
+      description : "Websocket Based attendance system with local network attendance without proxy/duplicate attendance",
+      tags: ["Next.js","MySql","Node.js","Express.js","Socket.IO"],
+      link: "https://github.com/tejxs67/Web-Socket_College-attendance-system"
+    },
+    {
+      title: "Websocket Based Attendance System(MERN)",
+      description : "Websocket Based attendance system with local network attendance without proxy/duplicate attendance",
+      tags: ["Next.js","MySql","Node.js","Express.js","Socket.IO"],
+      link: "https://github.com//tejxs67/Face-Recognition-Attendance-System-master"
+    },
     {
       title: "Project-Management System",
       description: "A College application to handle and monitor projects.",
@@ -14,7 +33,7 @@ export default function Projects() {
     {
       title: "Landing Page",
       description: "Dynamic WebPage Created for the main landing page of a organization with GSAP animations and API intergrations.",
-      tags: ["React.js", "Node.js", "MySQL"],
+      tags: ["React.js", "Node.js", "MySQL", "GSAP Animations", "Postman"],
       link: "https://grapedawn.tech"
     },
     {
@@ -29,6 +48,7 @@ export default function Projects() {
       tags: ["React Native", "Firebase"],
       link: "https://github.com/tejxs67"
     }
+    
   ]
 
   return (

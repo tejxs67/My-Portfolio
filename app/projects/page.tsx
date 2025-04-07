@@ -19,12 +19,6 @@ export default function Projects() {
       link: "https://github.com/tejxs67/Web-Socket_College-attendance-system"
     },
     {
-      title: "Websocket Based Attendance System(MERN)",
-      description : "Websocket Based attendance system with local network attendance without proxy/duplicate attendance",
-      tags: ["Next.js","MySql","Node.js","Express.js","Socket.IO"],
-      link: "https://github.com//tejxs67/Face-Recognition-Attendance-System-master"
-    },
-    {
       title: "Project-Management System",
       description: "A College application to handle and monitor projects.",
       tags: ["Next.js", "TypeScript", "Tailwind","MySQL"],

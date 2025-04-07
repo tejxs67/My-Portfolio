@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion'
 import { Code, Wrench, Heart } from 'lucide-react'
-import { FaJava, FaHtml5, FaCss3Alt, FaReact, FaDocker } from 'react-icons/fa'
-import { SiC, SiCplusplus, SiJavascript, SiMysql, SiTailwindcss, SiMongodb, SiNextdotjs, SiGit } from 'react-icons/si'
+import { FaJava, Faar, FaHtml5, FaCss3Alt, FaReact, FaDocker, FaPython } from 'react-icons/fa'
+import { SiC, SiCplusplus, SiJavascript, SiMysql, SiTailwindcss, SiMongodb, SiNextdotjs, SiGit, SiPython } from 'react-icons/si'
 import { Card } from '@/components/ui/card'
 
 const IconBadge = ({ Icon, label }: { Icon: React.ElementType; label: string }) => (
@@ -40,7 +40,8 @@ export default function Skills() {
     { name: 'CSS3', Icon: FaCss3Alt },
     { name: 'Tailwind', Icon: SiTailwindcss },
     { name: 'MySQL', Icon: SiMysql },
-    { name: 'NoSQL', Icon: SiMongodb }
+    { name: 'MongoDB', Icon: SiMongodb },
+    { name: 'Python', Icon: SiPython}
   ]
 
   const frameworksAndTools = [
@@ -52,7 +53,11 @@ export default function Skills() {
     { name: 'MongoDB', Icon: SiMongodb },
     { name: 'Git', Icon: SiGit },
     { name: 'API Handling', Icon: Code },
-    { name: 'Docker', Icon: FaDocker }
+    { name: 'Docker', Icon: FaDocker },
+    { name: 'OpenCV', Icon: FaPython },
+    { name: 'Numpy', Icon: FaPython },
+    { name: 'Pandas', Icon: FaPython },
+    { name: 'Pillow', Icon: FaPython }
   ]
 
   const interests = [
@@ -61,7 +66,8 @@ export default function Skills() {
     { name: 'WebRTC', Icon: Code },
     { name: 'Trekking', Icon: Heart },
     { name: 'Mechanical', Icon: Wrench },
-    { name: 'Music', Icon: Heart }
+    { name: 'Music', Icon: Heart },
+    { name: 'Driving', Icon: 'FaCar' },
   ]
 
   return (

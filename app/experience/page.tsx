@@ -18,7 +18,7 @@ export default function Experience() {
             Experience & Education
           </h1>
 
-          <div className="grid grid-cols-1 lg:grid-cols-8 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Work Experience */}
             <div className="lg:col-span-2 space-y-6">
               <h2 className="text-2xl font-semibold mb-6">Work Experience</h2>
@@ -93,19 +93,19 @@ export default function Experience() {
               <h2 className="text-2xl font-semibold mb-6">Education</h2>
               <TimelineCard
                 icon={GraduationCap}
-                title="Bachelor's in Computer Science"
+                title="Bachelor's in Computer Science - 8.36"
                 subtitle="Dr. D Y Patil Unitech College Pimpri, Pune"
                 period="2022-2025"
               />
               <TimelineCard
                 icon={GraduationCap}
-                title="Higher Secondary"
+                title="Higher Secondary - 77.33%"
                 subtitle="Saraswati Vishwa Vidyalaya, Pune"
                 period="2019-2021"
               />
               <TimelineCard
                 icon={GraduationCap}
-                title="Primaruy & Secondary"
+                title="Primary & Secondary - 77%"
                 subtitle="Amrita Vidyalayam, Pune"
                 period="2007-2019"
               />

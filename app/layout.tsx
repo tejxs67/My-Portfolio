@@ -1,3 +1,5 @@
+// TypeScript may not have a declaration for this Next.js global stylesheet.
+// @ts-expect-error -- globals.css is processed by Next.js at build time.
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
